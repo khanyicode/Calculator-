@@ -6,12 +6,18 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Calculator extends JFrame implements ActionListener {
-    JTextField display;
+    public JTextField display;
     private JPanel panel;
     private JButton[] numberButtons;
     private JButton[] functionButtons;
-    private JButton addButton, subButton, mulButton, divButton;
-    private JButton decButton, equButton, delButton, clrButton;
+    public JButton addButton;
+    public JButton subButton;
+    public JButton mulButton;
+    public JButton divButton;
+    public JButton decButton;
+    public JButton equButton;
+    public JButton delButton;
+    public JButton clrButton;
 
     private double num1 = 0, num2 = 0, result = 0;
     private char operator;
